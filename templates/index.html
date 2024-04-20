@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulacion Medica</title>
+    <style>
+        body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Roboto', sans-serif; /* Cambia la fuente a Roboto */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 20px 0; /* Aumenta el espacio alrededor del encabezado */
+    text-align: center;
+}
+
+nav {
+    background-color: #2980b9;
+    color: #ffffff;
+    padding: 10px 0; /* Aumenta el espacio alrededor de la barra de navegación */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px; /* Aumenta el espacio entre los elementos de la barra de navegación */
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+section {
+    padding: 40px 20px; /* Aumenta el espacio alrededor de las secciones */
+}
+
+footer {
+    background-color: #3498db;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0; /* Aumenta el espacio alrededor del pie de página */
+}
+
+/* Estilos para botones y contenedores de la sección Formulación Médica */
+#formulacion-medica {
+    display: flex; /* Establece un contenedor flexible */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    flex-wrap: wrap; 
+}
+
+#formulacion-medica button {
+    display: inline-block; 
+    margin-right: 10px; 
+    background-color: #2980b9 !important;
+    color: #ffffff;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+#formulacion-medica button:last-child {
+    margin-right: 0; 
+}
+
+#formulacion-medica-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.formulacion-medica {
+    border: 2px solid #ccc; /* Aumenta el grosor del borde */
+    border-radius: 10px; /* Aumenta el radio de los bordes de los elementos */
+    padding: 20px;
+    margin: 20px;
+    width: 350px; /* Ajusta el ancho de los elementos */
+    text-align: left; /* Cambia el alineamiento del texto a la izquierda */
+}
+
+.formulacion-medica p {
+    margin: 10px 0; /* Aumenta el espacio entre los párrafos */
+}
+
+.formulacion-medica a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.formulacion-medica a:hover {
+    text-decoration: underline;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Página Formulación Médica</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#acerca">Acerca de</a></li>
+            <li><a href="#formulacion-medica">Formulación Médica</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <section id="inicio">
+        <!--<h2>Bienvenido a mi página</h2>
+        <p>Esta es una página de ejemplo con varias secciones.</p>-->
+    </section>
+    
+    <section id="formulacion-medica">
+        <h2>Formulación Médica</h2>
+        <ul>
+            <button id="botones">Obtener Formulaciones Médicas</button>
+    
+            <div id="formulacion-medica-container"></div>
+    
+            <button id="botones">Eliminar Formulación Médica</button>
+    
+            <button id="botones">Actualizar Formulación Médica</button>
+            <button id="botones">Crear Formulación Médica</button>
+        </ul>
+    </section>
+    
+    <footer>
+        <p>&copy; Todos los derechos reservados. Santiago Pereira 2024</p>
+    </footer>
+</body>
+</html>
